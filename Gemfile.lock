@@ -25,6 +25,7 @@ GEM
       activesupport (= 4.1.6)
       builder (~> 3.1)
       erubis (~> 2.7.0)
+      rails_12factor
     activemodel (4.1.6)
       activesupport (= 4.1.6)
       builder (~> 3.1)
