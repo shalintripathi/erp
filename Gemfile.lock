@@ -1,5 +1,5 @@
 GIT
-  remote: github => 'shalintripathi/twitter-bootstrap-rails'
+  remote: git://github.com/shalintripathi/twitter-bootstrap-rails.git
   revision: 0d430bc229e4e61591ca1615aae513a3416cc5f1
   branch: bootstrap3
   specs:
