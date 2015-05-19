@@ -64,7 +64,8 @@ gem 'twitter-bootstrap-rails', :github => 'shalintripathi/twitter-bootstrap-rail
 # https://github.com/shalintripathi/twitter-bootstrap-rails
 # Use country_select
 gem "country_select"
-
+# Ruby version 
+ruby '2.0.0'
 # Use font-awesome
 gem 'font-awesome-sass'
 
@@ -100,6 +101,11 @@ end
 group :production do
   gem "thin"
 end
+
+ *group :production, :staging do
+      gem 'pg'
+      gem 'rails_12factor'
+    end*
 
 # Use aws-sdk
 gem "aws-sdk"
