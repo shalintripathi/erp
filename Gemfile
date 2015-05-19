@@ -59,7 +59,8 @@ gem 'devise'
 # Use twitter bootstrap
 gem "less-rails"
 #gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', branch: "bootstrap3" 
-gem 'twitter-bootstrap-rails', git: "git@github.com:shalintripathi/twitter-bootstrap-rails.git", branch: "bootstrap3"
+gem 'twitter-bootstrap-rails', :github => 'shalintripathi/twitter-bootstrap-rails.git', branch: "bootstrap3"
+#:github => 'Dakuan/client_side_validations'
 #https://github.com/shalintripathi/twitter-bootstrap-rails
 # Use country_select
 gem "country_select"
